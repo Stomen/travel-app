@@ -10,15 +10,12 @@ export default class HotelsList extends Component {
 
   const hotelsResult = hotels.map((item, key) => {
     
-    const {img, name, rate, price} = item;
 
     return (
       <HotelItem 
-        img={img} 
-        name={name} 
-        rate={rate} 
-        price={price.single} 
-        key={key}/>
+        item={item} 
+        key={key}
+        />
     )
   });
   return(

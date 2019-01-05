@@ -5,6 +5,42 @@
     margin-bottom: 15px;
     border: 1px solid #cdd9db;
     display: flex;
+    position: relative;
+  }
+  .content-hiden-element{
+    display: block;
+    width: 100%;
+    max-height: 0;
+    height: auto;
+    background: white;
+    transition: 0.4s all;
+    overflow: hidden;
+    border: 1px solid #cdd9db;
+    visibility: hidden;
+    opacity: 0;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    border-top: none;
+    margin: 0;
+    .title-items{
+      font-weight: 800;
+      text-decoration: underline;
+      margin-bottom: 5px
+    }
+    .content-info{
+      margin-bottom: 15px;
+      ul{
+        margin: 0;
+      }
+    }
+    &.open{
+      margin-top: -15px;
+      margin: -15px 0 15px 0;
+      max-height: 500px;
+      transition: 0.4s all;
+      visibility: visible;
+      opacity: 1;
+    }
   }
   .img-wrap{
     flex: 3;

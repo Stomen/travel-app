@@ -1,6 +1,4 @@
-export const hotels = 
-  {
-    "hotels" : [
+export const HOTEL_LIST = [
         {
             "name":"Euro Hotel Wembley",
       "img":"https://source.unsplash.com/250x200/?hotel",
@@ -8,7 +6,7 @@ export const hotels =
       "location":{"lat":"32.670295", "lon":"35.107254"},
       "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et feugiat lorem, eu tincidunt enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse vitae viverra ipsum.",
       "rate":"3",
-      "hasPool":"true",
+      "hasPool":true,
       "price":{"single":100, "double":150, "twin":200}
         },
         {
@@ -18,7 +16,7 @@ export const hotels =
       "location":{"lat":"32.670295", "lon":"35.107254"},
       "description":"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse vitae viverra ipsum. Nam eu sem feugiat, ultrices sem vitae, iaculis urna. Curabitur mauris mi, rhoncus nec luctus eget, elementum sed sapien.",
       "rate":"4",
-      "hasPool":"false",
+      "hasPool":false,
       "price":{"single":101, "double":151, "twin":201}
         },
         {
@@ -28,7 +26,7 @@ export const hotels =
       "location":{"lat":"32.670295", "lon":"35.107254"},
       "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem feugiat, ultrices sem vitae, iaculis urna. Curabitur mauris mi, rhoncus nec luctus eget, elementum sed sapien.",
       "rate":"2",
-      "hasPool":"true",
+      "hasPool":true,
       "price":{"single":102, "double":152, "twin":202}
         },
         {
@@ -38,7 +36,7 @@ export const hotels =
       "location":{"lat":"32.670295", "lon":"35.107254"},
       "description":"Nam eu sem feugiat, ultrices sem vitae, iaculis urna. Curabitur mauris mi, rhoncus nec luctus eget, elementum sed sapien. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse vitae viverra ipsum.",
       "rate":"3",
-      "hasPool":"false",
+      "hasPool":false,
       "price":{"single":103, "double":153, "twin":203}
         },
         {
@@ -48,7 +46,7 @@ export const hotels =
       "location":{"lat":"32.670295", "lon":"35.107254"},
       "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mauris mi, rhoncus nec luctus eget, elementum sed sapien.",
       "rate":"5",
-      "hasPool":"false",
+      "hasPool":false,
       "price":{"single":104, "double":154, "twin":204}
         },
     {
@@ -58,7 +56,7 @@ export const hotels =
       "location":{"lat":"32.670295", "lon":"35.107254"},
       "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et feugiat lorem, eu tincidunt enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse vitae viverra ipsum.",
       "rate":"3",
-      "hasPool":"true",
+      "hasPool":true,
       "price":{"single":100, "double":150, "twin":200}
         },
         {
@@ -68,7 +66,7 @@ export const hotels =
       "location":{"lat":"32.670295", "lon":"35.107254"},
       "description":"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse vitae viverra ipsum. Nam eu sem feugiat, ultrices sem vitae, iaculis urna. Curabitur mauris mi, rhoncus nec luctus eget, elementum sed sapien.",
       "rate":"4",
-      "hasPool":"false",
+      "hasPool":false,
       "price":{"single":101, "double":151, "twin":201}
         },
         {
@@ -78,7 +76,7 @@ export const hotels =
       "location":{"lat":"32.670295", "lon":"35.107254"},
       "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem feugiat, ultrices sem vitae, iaculis urna. Curabitur mauris mi, rhoncus nec luctus eget, elementum sed sapien.",
       "rate":"2",
-      "hasPool":"true",
+      "hasPool":true,
       "price":{"single":102, "double":152, "twin":202}
         },
         {
@@ -88,7 +86,7 @@ export const hotels =
       "location":{"lat":"32.670295", "lon":"35.107254"},
       "description":"Nam eu sem feugiat, ultrices sem vitae, iaculis urna. Curabitur mauris mi, rhoncus nec luctus eget, elementum sed sapien. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse vitae viverra ipsum.",
       "rate":"3",
-      "hasPool":"true",
+      "hasPool":true,
       "price":{"single":103, "double":153, "twin":203}
         },
         {
@@ -98,7 +96,7 @@ export const hotels =
       "location":{"lat":"32.670295", "lon":"35.107254"},
       "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mauris mi, rhoncus nec luctus eget, elementum sed sapien.",
       "rate":"5",
-      "hasPool":"true",
+      "hasPool":true,
       "price":{"single":104, "double":154, "twin":204}
         },
     {
@@ -108,7 +106,7 @@ export const hotels =
       "location":{"lat":"32.670295", "lon":"35.107254"},
       "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et feugiat lorem, eu tincidunt enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse vitae viverra ipsum.",
       "rate":"2",
-      "hasPool":"false",
+      "hasPool":false,
       "price":{"single":100, "double":150, "twin":200}
         },
         {
@@ -118,7 +116,7 @@ export const hotels =
       "location":{"lat":"32.670295", "lon":"35.107254"},
       "description":"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse vitae viverra ipsum. Nam eu sem feugiat, ultrices sem vitae, iaculis urna. Curabitur mauris mi, rhoncus nec luctus eget, elementum sed sapien.",
       "rate":"4",
-      "hasPool":"true",
+      "hasPool":true,
       "price":{"single":101, "double":151, "twin":201}
         },
         {
@@ -128,7 +126,7 @@ export const hotels =
       "location":{"lat":"32.670295", "lon":"35.107254"},
       "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem feugiat, ultrices sem vitae, iaculis urna. Curabitur mauris mi, rhoncus nec luctus eget, elementum sed sapien.",
       "rate":"2",
-      "hasPool":"false",
+      "hasPool":false,
       "price":{"single":102, "double":152, "twin":202}
         },
         {
@@ -138,7 +136,7 @@ export const hotels =
       "location":{"lat":"32.670295", "lon":"35.107254"},
       "description":"Nam eu sem feugiat, ultrices sem vitae, iaculis urna. Curabitur mauris mi, rhoncus nec luctus eget, elementum sed sapien. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse vitae viverra ipsum.",
       "rate":"3",
-      "hasPool":"true",
+      "hasPool":true,
       "price":{"single":103, "double":153, "twin":203}
         },
         {
@@ -148,7 +146,7 @@ export const hotels =
       "location":{"lat":"32.670295", "lon":"35.107254"},
       "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mauris mi, rhoncus nec luctus eget, elementum sed sapien.",
       "rate":"5",
-      "hasPool":"true",
+      "hasPool":true,
       "price":{"single":104, "double":154, "twin":204}
         },
     {
@@ -158,7 +156,7 @@ export const hotels =
       "location":{"lat":"32.670295", "lon":"35.107254"},
       "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et feugiat lorem, eu tincidunt enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse vitae viverra ipsum.",
       "rate":"3",
-      "hasPool":"false",
+      "hasPool":false,
       "price":{"single":100, "double":150, "twin":200}
         },
         {
@@ -168,7 +166,7 @@ export const hotels =
       "location":{"lat":"32.670295", "lon":"35.107254"},
       "description":"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse vitae viverra ipsum. Nam eu sem feugiat, ultrices sem vitae, iaculis urna. Curabitur mauris mi, rhoncus nec luctus eget, elementum sed sapien.",
       "rate":"4",
-      "hasPool":"true",
+      "hasPool":true,
       "price":{"single":101, "double":151, "twin":201}
         },
         {
@@ -178,7 +176,7 @@ export const hotels =
       "location":{"lat":"32.670295", "lon":"35.107254"},
       "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem feugiat, ultrices sem vitae, iaculis urna. Curabitur mauris mi, rhoncus nec luctus eget, elementum sed sapien.",
       "rate":"5",
-      "hasPool":"false",
+      "hasPool":false,
       "price":{"single":102, "double":152, "twin":202}
         },
         {
@@ -188,7 +186,7 @@ export const hotels =
       "location":{"lat":"32.670295", "lon":"35.107254"},
       "description":"Nam eu sem feugiat, ultrices sem vitae, iaculis urna. Curabitur mauris mi, rhoncus nec luctus eget, elementum sed sapien. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse vitae viverra ipsum.",
       "rate":"3",
-      "hasPool":"true",
+      "hasPool":true,
       "price":{"single":103, "double":153, "twin":203}
         },
         {
@@ -198,7 +196,7 @@ export const hotels =
       "location":{"lat":"32.670295", "lon":"35.107254"},
       "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mauris mi, rhoncus nec luctus eget, elementum sed sapien.",
       "rate":"5",
-      "hasPool":"true",
+      "hasPool":true,
       "price":{"single":104, "double":154, "twin":204}
         },
     {
@@ -208,7 +206,7 @@ export const hotels =
       "location":{"lat":"32.670295", "lon":"35.107254"},
       "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et feugiat lorem, eu tincidunt enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse vitae viverra ipsum.",
       "rate":"3",
-      "hasPool":"true",
+      "hasPool":true,
       "price":{"single":100, "double":150, "twin":200}
         },
         {
@@ -218,7 +216,7 @@ export const hotels =
       "location":{"lat":"32.670295", "lon":"35.107254"},
       "description":"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse vitae viverra ipsum. Nam eu sem feugiat, ultrices sem vitae, iaculis urna. Curabitur mauris mi, rhoncus nec luctus eget, elementum sed sapien.",
       "rate":"4",
-      "hasPool":"true",
+      "hasPool":true,
       "price":{"single":101, "double":151, "twin":201}
         },
         {
@@ -228,7 +226,7 @@ export const hotels =
       "location":{"lat":"32.670295", "lon":"35.107254"},
       "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem feugiat, ultrices sem vitae, iaculis urna. Curabitur mauris mi, rhoncus nec luctus eget, elementum sed sapien.",
       "rate":"5",
-      "hasPool":"false",
+      "hasPool":false,
       "price":{"single":102, "double":152, "twin":202}
         },
         {
@@ -238,7 +236,7 @@ export const hotels =
       "location":{"lat":"32.670295", "lon":"35.107254"},
       "description":"Nam eu sem feugiat, ultrices sem vitae, iaculis urna. Curabitur mauris mi, rhoncus nec luctus eget, elementum sed sapien. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse vitae viverra ipsum.",
       "rate":"3",
-      "hasPool":"true",
+      "hasPool":true,
       "price":{"single":103, "double":153, "twin":203}
         },
         {
@@ -248,9 +246,7 @@ export const hotels =
       "location":{"lat":"32.670295", "lon":"35.107254"},
       "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mauris mi, rhoncus nec luctus eget, elementum sed sapien.",
       "rate":"4",
-      "hasPool":"false",
+      "hasPool":false,
       "price":{"single":104, "double":154, "twin":204}
         }
-    ]
-  }
-;
+  ];

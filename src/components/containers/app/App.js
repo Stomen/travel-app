@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import LeftBar from "../left-bar/LeftBar";
-import HotelsList from "../hotels-list/HotelsList";
-import { hotels } from "../../constants/mocks/hotels";
+import LeftBar from "../../left-bar/LeftBar";
+import HotelsList from "../../hotels-list/HotelsList";
+import  { HOTEL_LIST }  from "../../../constants/mocks/hotels";
 import "./index.scss";
 
 export default class App extends Component{
@@ -9,7 +9,7 @@ export default class App extends Component{
   constructor(){
     super();
     this.state = {
-      hotels: hotels.hotels,
+      hotels: HOTEL_LIST, 
       searchTerm: "",
       freeFilt: false,
       starFilt: "all"
@@ -31,9 +31,7 @@ export default class App extends Component{
     if(freeFilt === false){
       return items;
     }
-    return items.filter((item) => {
-      return item.hasPool === "true";
-    });
+    return items.filter((item) => item.hasPool);
   }
 
   searchFilter = (items, searchTerms) => {
@@ -63,7 +61,7 @@ export default class App extends Component{
     const {hotels, searchTerm, freeFilt, starFilt} = this.state;
 
     const visibilityItems = this.starSearchFilter(this.freebiesFilter(this.searchFilter(hotels, searchTerm), freeFilt),starFilt);
-    const poolHotels = visibilityItems.filter( item => item.hasPool === "true" );
+    const poolHotels = visibilityItems.filter( item => item.hasPool );
   
    return(
      <div className="main-wrap">
