@@ -1,0 +1,143 @@
+.main-content{
+  padding: 15px 10px 0 5px;
+  flex: 3;
+  .content-item{
+    margin-bottom: 15px;
+    border: 1px solid #cdd9db;
+    display: flex;
+  }
+  .img-wrap{
+    flex: 3;
+    position: relative;
+    &.tag{
+      span{
+        display: block;
+      }
+    }
+    img{
+      background: gray;
+      display: block;
+      height: 210px;
+      width: 235px;
+      object-fit: cover;
+    }
+    span{
+      display: none;
+      position: absolute;
+      top: 15px;
+      left: 0;
+      padding: 4px 16px;
+      background: red;
+      color: white;
+      font-size: 0.8em;
+    }
+  }
+  .info-wrap{
+    padding: 15px 20px;
+    flex: 4;
+    .info-name{
+      font-size: 1.6em;
+      display: block;
+      max-height: 60px;
+      overflow: hidden;
+    }
+    .info-distance{
+      font-size: 0.8em;
+    }
+    .rait-wrap{
+      margin: 5px 0;
+      i{
+        &::before{
+          color: #c5c5c5;
+        }
+      }
+      &.has-stars-1{
+        i{
+          &:first-of-type{
+            &::before{
+              color: black;
+            }
+          }
+        }
+      }
+      &.has-stars-2{
+        i{
+          &:first-of-type, &:nth-of-type(2){
+            &::before{
+              color: black;
+            }
+          }
+        }
+      }
+      &.has-stars-3{
+        i{
+          &:first-of-type, &:nth-of-type(2), &:nth-of-type(3){
+            &::before{
+              color: black;
+            }
+          }
+        }
+      }
+      &.has-stars-4{
+        i{
+          &::before{
+            color: black;
+          }
+          &:last-of-type{
+            &::before{
+              color: #c5c5c5;
+            }
+          }
+        }
+      }
+      &.has-stars-5{
+        i{
+          &::before{
+            color: black;
+          }
+        }
+      }
+      &.best-item{
+        &:after{
+          display: inline-block;
+        }
+      }
+      &:after{
+        content: "BEST CITY HOTEL";
+        display: none;
+        background: gray;
+        margin-left: 20px;
+        font-size: 0.7em;
+        padding: 3px 8px;
+        border-radius: 2px;
+        color: white;
+      }
+    }
+  }
+  .price-wrap{
+    flex: 2;
+    border-left: 1px solid #cdd9db;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 17px;
+    span{
+      margin-top: 45px;
+      font-size: 1.3em;
+      font-weight: 800
+    }
+    .orange-btn{
+      background: #FF512F;  /* fallback for old browsers */
+      background: -webkit-linear-gradient(to right, #fa5d24, #eb3c25);  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, #fa5d24, #eb3c25); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      width: 100%;
+      margin: 0 auto;
+      color: white;
+      padding: 10px 20px;
+      font-size: 13px;
+      margin-bottom: 17px;
+      outline: none;
+      cursor: pointer;
+    }
+  }
+}

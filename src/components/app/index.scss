@@ -1,0 +1,19 @@
+.ellipsis{
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.main-wrap{
+  width: 100%;
+  .container{
+    display:flex;
+    justify-content: space-between;
+  }
+}
+.container{
+  min-width: 750px;
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+

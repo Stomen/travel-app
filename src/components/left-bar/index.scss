@@ -1,0 +1,98 @@
+.left-bar{
+  flex: 1;
+  padding: 0 15px;
+  .row-item{
+    margin: 0 auto;
+    border-bottom: 1px solid #dfdede;
+    padding:15px 0 30px 0;
+    &:last-of-type{
+      border-bottom: 1px solid transparent;
+    }
+  }
+  .row-item-title{
+    margin-bottom: 15px;
+  }
+  .stars-wrap{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    /* i.active ~ i{
+      &:before{
+        color: #55b0ff;
+      }
+      &>span{
+        color: #55b0ff;
+      }
+    } */
+    i{
+      font-size: 35px;
+      position: relative;
+      cursor: pointer;
+      &:hover{
+        &:before{
+          color: #55b0ff;
+        }
+        &>span{
+          color: #55b0ff;
+        }
+       /*  & ~ i{
+          &:before{
+            color: #55b0ff;
+          }
+          &>span{
+            color: #55b0ff;
+          }
+        } */
+      }
+      &.active{
+        &:before{
+          color: #55b0ff;
+        }
+        &>span{
+          color: #55b0ff;
+        }
+      }
+      &>span{
+        font-size: 12px;
+        position: absolute;
+        top: 13px;
+        right: 14px;
+        width: 11px;
+        text-align: center;
+      }
+    }
+  }
+}
+.freebies-item{
+  display: flex;
+  justify-content: flex-start;
+  input[type="checkbox"]{
+    cursor: pointer;
+  }
+  label{
+    margin-left: 5px;
+    max-width: 75%;
+    display: inline-block;
+  }
+  span{
+    margin: 0 0 0 auto;
+    display: inline-block;
+    width: 16%;
+    text-align: right;
+  }
+}
+.search-input{
+  border: 1px solid #b2b0b0;
+  padding: 10px;
+  i{
+    font-size: 12px;
+  }
+  input{
+    margin-left: 5px;
+    border: none;
+    outline: none;
+    &::placeholder{
+      color: #bfbebe;
+    }
+  }
+}
